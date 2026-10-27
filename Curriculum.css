@@ -1,0 +1,142 @@
+
+h1{
+    padding: 30px;
+    text-align: center;
+    background-color: #3B6986;
+    margin: 0px 5% 0px 5%;
+    border: 0px;
+    color: whitesmoke;
+}
+
+h2{
+    padding-bottom: 0px;
+}
+
+
+
+#Info{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+}
+#Left{
+    display: flex;
+    flex-direction: column;
+    background-color: #C8E3D0;
+    width: 360px;
+    margin: 0%;
+    height: 1000px;
+    padding-left: 0%;
+    border: 0%;
+}
+
+#Right{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 70%;
+    font-size: large;
+    border: 0%;
+}
+
+
+.Info{
+    padding-left: 20px;
+    padding-right: 8%;
+    text-align: justify;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+    position: relative;
+    right: 3%;
+}
+
+.Info hr{
+    padding-right: 0%;
+    position: relative;
+    right: 0%;
+}
+
+
+#First{
+    position: relative;
+    left: 7.6%;
+    width: 90%;
+}
+
+#Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#Contact p{
+    padding: 0%;
+    margin: 9px 0px 6px 0px;
+}
+
+
+#universityTag {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#universityTag p{
+    padding: 0%;
+    margin: 9px 0px 6px 0px;
+}
+
+
+#Skills ul{
+    width: 300px;
+}
+
+#Skills li{
+    padding-right: 10%;
+    text-align: left;
+    position: relative;
+    right: 6%;
+}
+
+.language {
+    with: 100%;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.languageInfo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.languageBar{
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#Englishlevel{
+    height: 100%;
+    width: 60%;
+    background-color: #1D7874;
+    border-radius: 10px;
+}
+
+#Spanishlevel{
+    height: 100%;
+    width: 80%;
+    background-color: #1D7874;
+    border-radius: 10px;
+}
+
+#Catalanlevel{
+    height: 100%;
+    width: 74%;
+    background-color: #1D7874;
+    border-radius: 10px;
+}
